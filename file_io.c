@@ -8,5 +8,4 @@ int main(void) {
         printf("Wrote PID to file\n");
     }
     return 0;
-
 }
