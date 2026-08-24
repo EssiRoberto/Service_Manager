@@ -3,7 +3,6 @@
 
 int main(void) {
     pid_t pid = fork();
-
     if (pid == 0) {
         printf("This is the child process!\n");	    
     }else if (pid > 0) {
