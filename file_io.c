@@ -7,5 +7,6 @@ int main(void) {
         fclose(file);
         printf("Wrote PID to file\n");
     }
+    return 0;
 
 }
